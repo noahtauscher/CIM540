@@ -12,3 +12,5 @@ Intro to creative coding hellloo
  * this is an indentation in a list
  
  `this is how you do code`
+ 
+ This is also what I'm turning in for my Week 1 Homework!
