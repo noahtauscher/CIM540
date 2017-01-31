@@ -1,7 +1,7 @@
-var mouthX = 100;
-var mouthY = 270;
-var mouthW = 300;
-var mouthH = 100;
+var mouthX = 342;
+var mouthY = 180;
+var mouthW = 50;
+var mouthH = 250;
 
 function setup() {
 	createCanvas(500,500);
@@ -11,13 +11,18 @@ function setup() {
 }
 
 function draw() {
-	ellipse(170,150,75,75);
+	ellipse(370,100,75,75);
 	
-	ellipse(320, 150, 75, 75);
+	rect(mouthX/8,mouthY - 130,mouthW,mouthH*1.5);
+	
+	rect(mouthX/1.5,mouthY - 130,mouthW,mouthH*1.5)
+	
+	rect(mouthX/3.8,mouthY,mouthH - 111,mouthW - 4);
+	
+	
 	
 	rect(mouthX, mouthY, mouthW, mouthH);
 	
-	line(mouthX, mouthY + mouthH/2 , ,320);
 }
 
 
