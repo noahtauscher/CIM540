@@ -21,7 +21,7 @@ function draw() {
 	
 	
 	
-	rect(mouthX, mouthY, mouthW, mouthH);
+	rect(342, mouthY, mouthW, mouthH);
 	
 }
 
