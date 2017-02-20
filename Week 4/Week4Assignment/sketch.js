@@ -1,29 +1,35 @@
-var mouthX = 342;
-var mouthY = 180;
-var mouthW = 50;
-var mouthH = 250;
+var eColor = 0;
+var counter = 0;
+var bgColor = "white";
 
 function setup() {
-	createCanvas(500,500);
-	background(20,100,100);
-	
-	console.log("width: " + width + " " + "height:" + height);
+    createCanvas(400, 400);
+    eColor = color(235, 122, 79);
 }
 
 function draw() {
-	ellipse(370,100,75,75);
+    background(bgColor);
+
+    fill(eColor);
+    ellipse(width / 2, counter, 100, 100);
+
+    
+
+    if(mouseY < 200){
+        bgColor = "orange";
+		counter = counter + 1;
+   }
 	
-	rect(mouthX/8,mouthY - 130,mouthW,mouthH*1.5);
-	
-	rect(mouthX/1.5,mouthY - 130,mouthW,mouthH*1.5)
-	
-	rect(mouthX/3.8,mouthY,mouthH - 111,mouthW - 4);
-	
-	
-	
-	rect(342, mouthY, mouthW, mouthH);
-	
+	else(mouseY > 200){
+       bgColor = "white";
+	 	counter = counter - 1;
+    }
+
+   
 }
 
 
-//elipse dimensions are x location, y location, width, height
+function mousePressed() {
+    counter = counter + 1;
+    console.log(counter);
+}

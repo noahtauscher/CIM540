@@ -3,6 +3,8 @@ function setup() {
 	
 	createCanvas(400,400);
 	eColor = color(235,122,79);
+	background(20,100,100);
+
 }
 
 function draw() {
