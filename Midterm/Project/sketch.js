@@ -35,7 +35,7 @@ function setup() {
     bg = loadImage ("images/bg.jpg")
 	createCanvas(1240, 382);
   
-	input
+	
  
 }
 
