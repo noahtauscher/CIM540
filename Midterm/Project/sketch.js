@@ -34,9 +34,8 @@ var input, button, greeting;
 function setup() {
     bg = loadImage ("images/bg.jpg")
 	createCanvas(1240, 382);
-  
 	
- 
+  
 }
 
 function draw() {
@@ -146,6 +145,5 @@ function mousePressed(){
         fingersize1 = 0
 		fingersize2 = 0
 		fingersize3 = 40
-  
     }
 }
