@@ -39,9 +39,9 @@ var Gmp3;
 function setup() {
     bg = loadImage ("images/wood.jpeg")
 	createCanvas(1240, 382);
-	//Dmp3 = loadSound("Sounds/D.mp3");	
-	//Cmp3 = loadSound("Sounds/C.mp3");	
-	//Gmp3 = loadSound("Sounds/G.mp3");	
+	Dmp3 = loadSound("Sounds/D.mp3");	
+	Cmp3 = loadSound("Sounds/C.mp3");	
+	Gmp3 = loadSound("Sounds/G.mp3");	
 	
 }
 
